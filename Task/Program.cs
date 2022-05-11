@@ -60,3 +60,55 @@ void FormatArray(string[] array1) // Форматирование массива
         else array1[i] = string.Empty;
     }
 }
+Console.WriteLine("Здравствуйте! Как бы Вы хотели увидеть решения поставленной задачи?");
+Console.WriteLine("Если хотете сами ввести символы, то введите слово -Да- и нажмите -Enter-");
+Console.WriteLine("Если хотите чтобы были использованы символы из примера, то введите -Нет- и нажмите -Enter-!");
+string? VariantVvoda = Console.ReadLine();
+if (VariantVvoda != null) Console.WriteLine("Спасибо! Желаем приятной проверки задания!");
+if (VariantVvoda!.ToLower() == "да" || VariantVvoda.ToLower() == "нет")
+{
+    if (VariantVvoda.ToLower() == "да")
+    {
+        Console.WriteLine("Введите Ваши элементы отделяя каждый объект с символами пробелом, либо запятой и нажмите -Enter-:");
+        string[] ElementIn = Console.ReadLine()!.Split(new char[] { ' ', ',' },
+                               StringSplitOptions.RemoveEmptyEntries);
+        string[] ArrayVar4 = ElementIn;
+        PrintArrayVar(ArrayVar4);
+        FormatArray(ArrayVar4);
+        PrintArray(ArrayVar4);
+    }
+    else
+    {
+        Console.WriteLine("В примере были приведены 3 варианта, просим выбрать один из них (введите номер и нажминте -Enter-");
+        Console.WriteLine("1 -" + "[" + "hello, " + "2, " + "world, " + " :-)" + "]");
+        Console.WriteLine("2 -" + "[" + "1234, " + "1567, " + "- 2, " + "computer science" + "]");
+        Console.WriteLine("3 -" + "[" + "Russia, " + "Denmark, " + "Kazan" + "]");
+        int Variant = Convert.ToInt32(Console.ReadLine());
+        if (Variant == 1)
+        {
+            PrintArrayVar(ArrayVar1);
+            FormatArray(ArrayVar1);
+            PrintArray(ArrayVar1);
+        }
+        if (Variant == 2)
+        {
+            PrintArrayVar(ArrayVar2);
+            FormatArray(ArrayVar2);
+            PrintArray(ArrayVar2);
+        }
+        if (Variant == 3)
+        {
+            PrintArrayVar(ArrayVar3);
+            FormatArray(ArrayVar3);
+            PrintArray(ArrayVar3);
+        }
+        if (Variant < 1 || Variant > 3)
+        {
+            Console.WriteLine("Такого варианта нет! Game over!");
+        }
+    }
+}
+else
+{
+    Console.WriteLine("К сожалению, на данном этапе программа, не сможет удовлетворить Ваше любопытство, т.к. программа работает в границах от ДА до НЕТ. Просим выбрать из этих двух вариантов! Заранее спасибо!");
+}
