@@ -79,7 +79,7 @@ if (VariantVvoda!.ToLower() == "да" || VariantVvoda.ToLower() == "нет")
     }
     else
     {
-        Console.WriteLine("В примере были приведены 3 варианта, просим выбрать один из них (введите номер и нажминте -Enter-");
+        Console.WriteLine("В примере были приведены 3 варианта, просим выбрать один из них (введите номер и нажминте -Enter-)");
         Console.WriteLine("1 -" + "[" + "hello, " + "2, " + "world, " + " :-)" + "]");
         Console.WriteLine("2 -" + "[" + "1234, " + "1567, " + "- 2, " + "computer science" + "]");
         Console.WriteLine("3 -" + "[" + "Russia, " + "Denmark, " + "Kazan" + "]");
