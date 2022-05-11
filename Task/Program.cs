@@ -17,3 +17,34 @@ void PrintArrayVar(string[] array0) // ПЕЧАТЬ Заданных масси�
     Console.Write(str);
     Console.Write("'] --> [");
 }
+void PrintArray(string[] array1) // Печать массива
+{
+    int count = 0;
+    for (int i = 0; i < array1.Length - 1; i++)
+    {
+        if (String.IsNullOrWhiteSpace(array1[i]))
+        {
+            Console.Write("");
+        }
+        else
+        {
+            if (count > 0) Console.Write(",");
+            count++;
+            Console.Write($"'{array1[i]}'");
+        }
+    }
+    for (int i = array1.Length - 1; i < array1.Length; i++)
+        if (array1.Length < 2) Console.Write($"'{array1[i]}']");
+        else
+        {
+            if (String.IsNullOrWhiteSpace(array1[i]))
+            {
+                Console.Write("]");
+            }
+            else
+            {
+                Console.Write($",'{array1[i]}']");
+            }
+        }
+    Console.WriteLine();
+}
