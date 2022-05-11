@@ -1,0 +1,15 @@
+E:\GeekBrains\Developer\Proverochnaya\Proverochnay_rabota\Task\bin\Debug\net6.0\Task.exe
+E:\GeekBrains\Developer\Proverochnaya\Proverochnay_rabota\Task\bin\Debug\net6.0\Task.deps.json
+E:\GeekBrains\Developer\Proverochnaya\Proverochnay_rabota\Task\bin\Debug\net6.0\Task.runtimeconfig.json
+E:\GeekBrains\Developer\Proverochnaya\Proverochnay_rabota\Task\bin\Debug\net6.0\Task.dll
+E:\GeekBrains\Developer\Proverochnaya\Proverochnay_rabota\Task\bin\Debug\net6.0\Task.pdb
+E:\GeekBrains\Developer\Proverochnaya\Proverochnay_rabota\Task\obj\Debug\net6.0\Task.csproj.AssemblyReference.cache
+E:\GeekBrains\Developer\Proverochnaya\Proverochnay_rabota\Task\obj\Debug\net6.0\Task.GeneratedMSBuildEditorConfig.editorconfig
+E:\GeekBrains\Developer\Proverochnaya\Proverochnay_rabota\Task\obj\Debug\net6.0\Task.AssemblyInfoInputs.cache
+E:\GeekBrains\Developer\Proverochnaya\Proverochnay_rabota\Task\obj\Debug\net6.0\Task.AssemblyInfo.cs
+E:\GeekBrains\Developer\Proverochnaya\Proverochnay_rabota\Task\obj\Debug\net6.0\Task.csproj.CoreCompileInputs.cache
+E:\GeekBrains\Developer\Proverochnaya\Proverochnay_rabota\Task\obj\Debug\net6.0\Task.dll
+E:\GeekBrains\Developer\Proverochnaya\Proverochnay_rabota\Task\obj\Debug\net6.0\refint\Task.dll
+E:\GeekBrains\Developer\Proverochnaya\Proverochnay_rabota\Task\obj\Debug\net6.0\Task.pdb
+E:\GeekBrains\Developer\Proverochnaya\Proverochnay_rabota\Task\obj\Debug\net6.0\Task.genruntimeconfig.cache
+E:\GeekBrains\Developer\Proverochnaya\Proverochnay_rabota\Task\obj\Debug\net6.0\ref\Task.dll
