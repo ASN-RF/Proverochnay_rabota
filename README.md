@@ -1,2 +1,2 @@
 # Proverochnay_rabota
-Proverochnay_rabota
+Proverochnay_rabota Условие проверочной работы
