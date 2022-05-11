@@ -48,3 +48,15 @@ void PrintArray(string[] array1) // Печать массива
         }
     Console.WriteLine();
 }
+void FormatArray(string[] array1) // Форматирование массива
+{
+    for (int i = 0; i < array1.Length; i++)
+    {
+        string ElementOut = array1[i];
+        if (ElementOut.Length <= 3)
+        {
+            array1[i] = ElementOut;
+        }
+        else array1[i] = string.Empty;
+    }
+}
